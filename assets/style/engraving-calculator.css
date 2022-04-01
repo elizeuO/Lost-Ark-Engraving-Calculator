@@ -1,0 +1,243 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 60px;
+    font-size: 14px;
+    font-family: sans-serif;
+    background: url('../images/body-bg.jpg');
+    background-attachment: fixed;
+}
+
+.c-container {
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.c__transition {
+    transition: all 300ms;
+}
+
+.l-flex {
+    display: flex;
+}
+
+.l-flex--center {
+    justify-content: center;
+    align-items: center;
+}
+
+.l-flex--wrap{
+    flex-wrap: wrap;
+}
+
+.l-flex--stretch {
+    align-items: stretch;
+}
+
+.l-flex--negative {
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.l__col-3 {
+    padding: 12px;
+    width: 25%;
+}
+
+.l__col-4 {
+    padding: 12px;
+    width: 33.33%;
+}
+
+.l__col-6 {
+    padding: 12px;
+    width: 50%;
+}
+
+.l__col-8 {
+    padding: 12px;
+    width: 66.66%;
+}
+
+.c-header__imgage {
+    height: 40px;
+}
+
+h1 {
+    margin: 5px 0;
+    ;
+    color: #799cff;
+    font-size: 50px;
+}
+
+h2 {
+    margin: 45px 0 30px 0;
+    font-size: 25px;
+    color: white;
+}
+
+.c-title--big {
+    font-size: 28px;
+}
+
+.c-engraving-item-wrapper {
+    border-right: 1px solid rgb(255 255 255 / 13%);
+}
+
+.c-engraving-item {
+    padding-right: 15px;
+}
+
+.c-engraving-item__image{
+    position: relative;
+    width: 75px
+}
+
+.c-engraving-item__image img {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.c-button {
+    margin-right: 10px;
+    padding: 6px 12px;
+    color: white;
+    background: #a78300;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.c-button--blue{
+   background: #0889a7;
+}
+
+.c-button:hover {
+    background: #33ad01;
+    transform: scale(1.1);
+}
+
+input{
+    width: 25%;
+}
+select{
+margin-right: 5px;
+width: 75%;
+}
+
+input,
+select {
+    height: 25px;
+    margin-bottom: 3px;
+    color: white;
+    background: #353535;
+    border-radius: 4px;
+    border: none;
+}
+
+.c-engraving-item__negative{
+    background: #522626;
+}
+
+input:focus,
+select:focus {
+    filter: brightness(1.6);
+    outline: none;
+}
+
+.c-engraving-item__negative:focus{
+    background: #853e3e;
+}
+
+
+.c-engraving-result {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background: #76830a0d;
+    border-bottom: #b1b1b140 solid 1px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.c-engraving-result h3 {
+    margin: 0;
+    padding: 4px 10px;
+    color: white;
+    background: linear-gradient(40deg, #131b24, #2c68b5, #0070ff05)
+}
+
+.c-engraving-point-lv {
+    display: inline-block;
+    margin-right: 5px;
+
+}
+
+.c-engraving-lv {
+    padding: 2px 10px;
+    background: #242424;
+    color: #646464;
+}
+
+.c-engraving-lv.active {
+    background: #2d3b4c;
+    ;
+    color: white;
+}
+
+.c-engraving-point {
+    display: inline-block;
+    margin: 10px 5px 0 5px;
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(#84c5d7, #00637485, #00b0e1);
+    border: #66acd9 1px solid;
+    border-radius: 2px;
+    transform: rotate(45deg);
+}
+
+
+[engraving-type="negative"] h3 {
+    background: linear-gradient(40deg, #440606, #c30f0f, #e500001c);
+}
+
+[engraving-type="negative"] .c-engraving-point {
+    background: radial-gradient(#ff9999, #dd2424ba, #ff7a7a);
+    border: #fb8b8b 1px solid;
+}
+
+[engraving-type="negative"] .c-engraving-lv.active {
+    background: #762424;
+}
+
+.c-engraving-point:not(.active) {
+    filter: grayscale(1);
+}
+
+.c-engraving-result__extra-points {
+    margin-left: auto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.c-engraving-result__extra-points:after {
+    content: '!';
+    display: inline-block;
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+    background: #c71515;
+    border-radius: 50%;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.c-copyrights {
+    margin-top: 40px;
+    color: white;
+}
