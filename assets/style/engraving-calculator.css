@@ -28,7 +28,7 @@ body {
     align-items: center;
 }
 
-.l-flex--wrap{
+.l-flex--wrap {
     flex-wrap: wrap;
 }
 
@@ -39,6 +39,10 @@ body {
 .l-flex--negative {
     margin-right: -12px;
     margin-left: -12px;
+}
+
+.l-flex--vertical {
+    flex-direction: column;
 }
 
 .l__col-3 {
@@ -72,7 +76,7 @@ h1 {
     font-size: 50px;
 }
 
-.c-title--small{
+.c-title--small {
     font-size: 25px;
     font-weight: 300;
 }
@@ -95,7 +99,7 @@ h2 {
     padding-right: 15px;
 }
 
-.c-engraving-item__image{
+.c-engraving-item__image {
     position: relative;
     width: 75px
 }
@@ -118,8 +122,8 @@ h2 {
     cursor: pointer;
 }
 
-.c-button--blue{
-   background: #0889a7;
+.c-button--blue {
+    background: #0889a7;
 }
 
 .c-button:hover {
@@ -127,14 +131,14 @@ h2 {
     transform: scale(1.1);
 }
 
-input{
+input {
     width: 25%;
 }
 
-select{
-margin-right: 5px;
-width: 75%;
-cursor: pointer;
+select {
+    margin-right: 5px;
+    width: 75%;
+    cursor: pointer;
 }
 
 input,
@@ -147,17 +151,19 @@ select {
     border: none;
 }
 
-.c-engraving-item__negative{
+.c-engraving-item__negative {
     background: #522626;
 }
 
-input:focus, input:hover, 
-select:focus, select:hover {
+input:focus,
+input:hover,
+select:focus,
+select:hover {
     filter: brightness(1.6);
     outline: none;
 }
 
-.c-engraving-item__negative:focus{
+.c-engraving-item__negative:focus {
     background: #853e3e;
 }
 
@@ -244,7 +250,20 @@ select:focus, select:hover {
     text-align: center;
 }
 
-.c-copyrights {
-    margin-top: 40px;
+
+.c-footer {
+    margin-top: 70px;
     color: white;
+}
+
+.c-footer__text {
+    padding-left: 10px;
+}
+
+.c-pix {
+    max-width: 100px;
+}
+
+.c-footer__text * {
+    margin-top: auto;
 }
