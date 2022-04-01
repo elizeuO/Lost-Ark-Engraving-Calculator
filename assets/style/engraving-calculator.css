@@ -130,9 +130,11 @@ h2 {
 input{
     width: 25%;
 }
+
 select{
 margin-right: 5px;
 width: 75%;
+cursor: pointer;
 }
 
 input,
@@ -149,8 +151,8 @@ select {
     background: #522626;
 }
 
-input:focus,
-select:focus {
+input:focus, input:hover, 
+select:focus, select:hover {
     filter: brightness(1.6);
     outline: none;
 }
