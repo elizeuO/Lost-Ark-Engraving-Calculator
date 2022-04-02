@@ -416,7 +416,8 @@ document.addEventListener('change', (ev) => {
 	let input = ev.target.closest('.js-engraving-slot-lv');
 	if (null === input) { return; }
 
-	console.log(input.value);
+	input.value = parseInt(input.value);
+	console.log(input.value)
 
 	switch (input.value) {
 		case '1':
