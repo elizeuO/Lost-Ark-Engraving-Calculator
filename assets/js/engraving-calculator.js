@@ -169,7 +169,7 @@ document.addEventListener('click', (ev) => {
 
 	let engravingResultsWrapper = document.querySelector('.js-render-results');
 	if(null !== engravingResultsWrapper){
-		engravingResultsWrapper.innerHTML = '';
+		engravingResultsWrapper.innerHTML = 'Select the engravings first!';
 	}
 
 	let normalEngravingSelects = document.querySelectorAll('.js-normal-engraving-list');
