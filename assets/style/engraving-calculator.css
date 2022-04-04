@@ -6,9 +6,10 @@ body {
     color: white;
     font-size: 14px;
     font-family: sans-serif;
-    background: url('../images/body-bg.jpg');
-    background-attachment: fixed;
+    background: url(../images/body-bg.jpg);
     overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .c-container {
