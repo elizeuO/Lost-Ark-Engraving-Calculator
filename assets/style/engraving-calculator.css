@@ -299,7 +299,7 @@ select:hover {
 
 
 .c-footer {
-    padding: 40px 20px;
+    padding: 60px 20px 40px;
     color: white;
 }
 
@@ -307,7 +307,8 @@ select:hover {
     padding-left: 10px;
 }
 
-.c-pix {
+.c-donate {
+    margin: 20px 10px 40px 0;
     max-width: 100px;
 }
 
@@ -340,7 +341,7 @@ select:hover {
         width: 100%;
     }
 
-    .c-pix{
+    .c-donate{
         margin-bottom: 20px;
     }
 }
@@ -358,6 +359,11 @@ select:hover {
     .c-engraving-item__image img {
         position: static;
         transform: none
+    }
+
+    .c__mobile-center{
+        justify-content: center;
+        align-items: center;
     }
 
    
