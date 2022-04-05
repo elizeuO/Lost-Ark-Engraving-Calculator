@@ -134,6 +134,7 @@ li{
 }
 
 .c-title--big {
+    margin: 30px 0;
     font-size: 28px;
 }
 
@@ -300,7 +301,7 @@ select:hover {
 
 
 .c-footer {
-    padding: 60px 20px 40px;
+    padding: 10px 20px;
     color: white;
 }
 
@@ -315,6 +316,10 @@ select:hover {
 
 .c-donate:hover, .c-donate:focus{
     transform: scale(1.1);
+}
+
+.c-ads {
+    margin: 70px 0;
 }
 
 .c-footer__text * {
