@@ -139,7 +139,6 @@ const negativeEngravings =
 		'ATK Power Decrease',
 		'ATK Speed Decrease',
 		'Defense Decrease',
-		'Defense Decrease',
 		'Speed Decrease'
 	];
 
