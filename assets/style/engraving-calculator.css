@@ -327,7 +327,7 @@ select:hover {
 
 /* Responsive*/
 
-@media(max-width: 1024px){
+@media (max-width: 1024px){
 
     .l__col-mobile-big{
         width: 100%;
@@ -339,9 +339,17 @@ select:hover {
         border-bottom: 1px solid rgb(255 255 255 / 13%);
     }
 
+    select {
+        margin-right: 10px;
+    }
+
+    input, select {
+        margin-bottom: 10px;
+    }
+
 }
 
-@media(max-width: 768px){
+@media (max-width: 768px){
     .l__col-6{
         width: 100%;
     }
@@ -355,7 +363,7 @@ select:hover {
     }
 }
 
-@media(max-width: 467x){
+@media (max-width: 467x){
     *{
         text-align: center;
         text-align-last: center;
