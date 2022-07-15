@@ -8,6 +8,8 @@ $fontFamily: sans-serif;
 Colors
 --------------------------------------------------------------------------------------------------------------------------------- */
 
+$colorBlack: #222;
+$colorWhite: #fff;
 $colorOcher: #a78300;
 $colorGray: #ffffff21;
 $colorGreen: #33ad01;
@@ -104,6 +106,7 @@ body {
     font-size: $fontSize;
     font-family: $fontFamily;
     overflow-x: hidden;
+    background: url(../images/body-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -111,6 +114,21 @@ body {
 .c-container {
     margin: 0 auto;
     max-width: 1500px;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    @extend %transition;
+    color: $colorWhite;
+    text-decoration: none;
+}
+
+svg{
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
