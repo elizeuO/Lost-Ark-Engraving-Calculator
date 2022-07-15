@@ -19,6 +19,11 @@ const Header = ()=>{
             Engraving
             </a>
 
+            <a href="/Engraving">
+            <FontAwesomeIcon icon='calculator' />
+            Changelog
+            </a>
+
         </div>
         </div>
     </header>

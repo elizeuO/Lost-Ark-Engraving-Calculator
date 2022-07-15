@@ -1,0 +1,25 @@
+@use '../../assets/styles/general' as *;
+
+.c-footer {
+    @extend %center;
+    padding: 40px 20px;
+    color: $colorWhite;
+
+    .c-footer__text {
+        padding-left: 10px;
+    }
+
+    .c-footer__text * {
+        margin-top: auto;
+    }
+}
+
+.c-donate {
+    @extend %transition;
+    margin: 20px 15px 40px 0;
+    max-width: 100px;
+
+    &:hover, &:focus{
+        transform: scale(1.1);
+    }
+}

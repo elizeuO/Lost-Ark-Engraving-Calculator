@@ -1,7 +1,7 @@
-@use '../../assets/styles/general.scss' as *;
+@use '../../assets/styles/general' as *;
 
 .c-header{
-    padding: 10px 0;
+    padding: 15px 0;
     background-color: $colorBlack;
 
     a{
