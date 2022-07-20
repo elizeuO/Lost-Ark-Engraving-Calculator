@@ -1,0 +1,169 @@
+{
+	"items":[
+		{
+		"name": "Adrenaline",
+		"img":,
+	},
+	{
+		"name": "All-Out Attack",
+		"img":,
+	},
+	{
+		"name": "Awakening",
+		"img":,
+	},
+	{
+		"name": "Barricade",
+		"img":,
+	},
+	{
+		"name": "Broken Bone",
+		"img":,
+	},
+	{
+		"name": "Contender",
+		"img":,
+	},
+	{
+		"name": "Crisis Evasion",
+		"img":,
+	},
+	{
+		"name": "Crushing Fist",
+		"img":,
+	},
+	{
+		"name": "Cursed Doll",
+		"img":,
+	},
+	{
+		"name": "Disrespect",
+		"img":,
+	},
+	{
+		"name": "Divine Protection",
+		"img":,
+	},
+	{
+		"name": "Drops of Ether",
+		"img":,
+	},
+	{
+		"name": "Emergency Rescue",
+		"img":,
+	},
+	{
+		"name": "Enhanced Shield",
+		"img":,
+	},
+	{
+		"name": "Ether Predator",
+		"img":,
+	},
+	{
+		"name": "Expert",
+		"img":,
+	},
+	{
+		"name": "Explosive Expert",
+		"img":,
+	},
+	{
+		"name": "Fortitude",
+		"img":,
+	},
+	{
+		"name": "Grudge",
+		"img":,
+	},
+	{
+		"name": "Heavy Armor",
+		"img":,
+	},
+	{
+		"name": "Hit Master",
+		"img":,
+	},
+	{
+		"name": "Increases Mass",
+		"img":,
+	},
+	{
+		"name": "Lightning Fury",
+		"img":,
+	},
+	{
+		"name": "Magick Stream",
+		"img":,
+	},
+	{
+		"name": "Master Brawler",
+		"img":,
+	},
+	{
+		"name": "Master of Ambush",
+		"img":,
+	},
+	{
+		"name": "Master of Escape",
+		"img":,
+	},
+	{
+		"name": "Masters Tenacity",
+		"img":,
+	},
+	{
+		"name": "Max MP Increase",
+		"img":,
+	},
+	{
+		"name": "MP Efficiency Increase",
+		"img":,
+	},
+	{
+		"name": "Necromancy",
+		"img":,
+	},
+	{
+		"name": "Precision Dagger",
+		"img":,
+	},
+	{
+		"name": "Propulsion",
+		"img":,
+	},
+	{
+		"name": "Raid Captain",
+		"img":,
+	},
+	{
+		"name": "Shield Piercing",
+		"img":,
+	},
+	{
+		"name": "Sight Focus",
+		"img":,
+	},
+	{
+		"name": "Spirit Absorption",
+		"img":,
+	},
+	{
+		"name": "Stabilized Status",
+		"img":,
+	},
+	{
+		"name": "Strong Will",
+		"img":,
+	},
+	{
+		"name": "Super Charge",
+		"img":,
+	},
+	{
+		"name": "Vital Point Strike",
+		"img":,
+	}
+
+	]
+}

@@ -1,6 +1,21 @@
-[
-    'ATK Power Decrease',
-		'ATK Speed Decrease',
-		'Defense Decrease',
-		'Speed Decrease'
-]
+{
+	"items":[
+		{
+		"name": "ATK Power Decrease",
+		"img":,
+	},
+	{
+		"name": "ATK Speed Decrease",
+		"img":,
+	},
+	{
+		"name": "Defense Decrease",
+		"img":,
+	},
+	{
+		"name": "Speed Decrease",
+		"img":,
+	}
+
+	]
+}
