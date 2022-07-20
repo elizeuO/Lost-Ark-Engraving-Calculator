@@ -1,0 +1,163 @@
+        {
+			"items":[
+				{
+				"name": "Mayhem",
+				"img":,
+				"class": "Berserker"
+			},
+			{
+				"name": "Berserker's Technique",
+				"img":,
+				"class": "Berserker"
+			},
+			{
+				"name": "Enhanced Weapon",
+				"img":,
+				"class": "Deadeye"
+			},
+			{
+				"name": "Pistoleer",
+				"img":,
+				"class": "Deadeye"
+			},
+			{
+				"name": "Esoteric Skill Enhancement",
+				"img":,
+				"class": "Wardancer"
+			},
+			{
+				"name": "First Intention",
+				"img":,
+				"class": "Wardancer"
+			},
+			{
+				"name": "Ultimate Skill: Taijutsu",
+				"img":,
+				"class": "Wardancer"
+			},
+			{
+				"name": "Shock Training",
+				"img":,
+				"class": "Wardancer"
+			},
+			{
+				"name": "Barrage",
+				"img":,
+				"class": "Artillerist"
+			},
+			{
+				"name": "Firepower Enhancement",
+				"img":,
+				"class": "Artillerist"
+			},
+			{
+				"name": "Desperate Salvation",
+				"img":,
+				"class": "Bard"
+			},
+			{
+				"name": "True Courage",
+				"img":,
+				"class": "Bard"
+			},
+			{
+				"name": "Reflux",
+				"img":,
+				"class": "Sorceress"
+			},
+			{
+				"name": "Igniter",
+				"img":,
+				"class": "Sorceress"
+			},
+			{
+				"name": "Esoteric Flurry",
+				"img":,
+				"class": "Striker"
+			},
+			{
+				"name": "Deathblow",
+				"img":,
+				"class": "Striker"
+			},
+			{
+				"name": "Time To Hunt",
+				"img":,
+				"class": "Gunslinger"
+			},
+			{
+				"name": "Peacemaker",
+				"img":,
+				"class": "Gunslinger"
+			},
+			{
+				"name": "Blessed Aura",
+				"img":,
+				"class": "Paladin"
+			},
+			{
+				"name": "Judgment",
+				"img":,
+				"class": "Paladin"
+			},
+			{
+				"name": "Demonic Impulse",
+				"img":,
+				"class": "Shadow Hunter"
+			},
+			{
+				"name": "Perfect Suppression",
+				"img":,
+				"class": "Shadow Hunter"
+			},
+			{
+				"name": "Surge",
+				"img":,
+				"class": "Death Blade"
+			},
+			{
+				"name": "Remaining Energy",
+				"img":,
+				"class": "Death Blade"
+			},
+			{
+				"name": "Death Strike",
+				"img":,
+				"class": "Sharpshooter"
+			},
+			{
+				"name": "Loyal Companion",
+				"img":,
+				"class": "Sharpshooter"
+			},
+			{
+				"name": "Robust Spirit",
+				"img":,
+				"class": "Soulfist"
+			},
+			{
+				"name": "Energy Overflow",
+				"img":,
+				"class": "Soulfist"
+			},
+			{
+				"name": "Lone Knight",
+				"img":,
+				"class": "Gunlancer"
+			},
+			{
+				"name": "Combat Readiness",
+				"img":,
+				"class": "Gunlancer"
+			},
+
+			]
+		}
+		
+		
+		
+		
+		
+		
+		
+ 
