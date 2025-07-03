@@ -89,8 +89,7 @@ body {
 }
 
 .c-section{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 40px 20px;
 }
 
 .c-header__imgage {
@@ -114,7 +113,7 @@ img{
 h1 {
     margin: 10px 0 5px;
     color: #799cff;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .c-title--small {
@@ -124,7 +123,7 @@ h1 {
 
 h2 {
     margin: 15px 0;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
 
@@ -346,10 +345,9 @@ select:hover {
     input, select {
         margin-bottom: 10px;
     }
-
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     .l__col-6{
         width: 100%;
     }
@@ -363,7 +361,7 @@ select:hover {
     }
 }
 
-@media (max-width: 467x){
+@media (max-width: 478px){
     *{
         text-align: center;
         text-align-last: center;
@@ -383,5 +381,7 @@ select:hover {
         align-items: center;
     }
 
-   
+    h1{
+        font-size: 30px;
+    }
 }
